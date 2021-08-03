@@ -9,7 +9,7 @@
 
 	
     <!-- Define your beans here STEP1: ADD CONFIGURATION-->
-<bean id="myCoach" class="com.mycode.spring_ioc.BaseBallCoach">
+<bean id="myCoach" class="com.mycode.spring_ioc.CricketCoach">
 
 </bean>    
 

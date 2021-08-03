@@ -16,8 +16,13 @@ public class HelloSpringApp {
 		System.out.print("Method called:"+coach.getDailyWorkout());
 		//close the context
 		context.close();
-		
 
+//STEPS:
+		//Step1: Add configuration in ApplicationContext.xml-> With class(full path of bean) and id
+		//Step2: Create an interface -Coach
+		//Steps3:In main()-> Create XMLContext object and pass the name of application context
+		//Step4: Use getBean method -> pass id (defined in XML file and Interface.class )
+		//Step 5: using Interface ref call the function
 	}
 
 }
